@@ -1,0 +1,28 @@
+.container__big-card {
+  width: 45%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.big-card__photo > img {
+  width: 100%;
+  min-width: 45%;
+  border-radius: 5px;
+}
+.big-card_title > h1 {
+  margin-top: 15px;
+  font-size: 1.25rem;
+}
+.big-card__description {
+  margin-top: 15px;
+}
+
+.big-card__description > p > a {
+  color: gray;
+}
+.container__big-card:hover{
+  transition: all 2s ease-out;
+  transform: scale(.9);
+}
