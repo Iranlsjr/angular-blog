@@ -1,10 +1,4 @@
-/*menu bar*/
-header {
-  display: flex;
-  justify-content: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
+
 /*big car and small car*/
 .container__articles {
   margin-top: 30px;
